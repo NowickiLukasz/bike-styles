@@ -3,12 +3,12 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: rgb(224,228,255);
     
 }
 /* header and nav bar styling */
 #header{
     height: 50px;
-    background-color: rgb(130,87,34);
 }
 
 #header h1{
@@ -16,8 +16,19 @@
     margin-left: 20px;
 }
 
+#header a{
+    height: 50%;
+    width: auto;
+    background-color:rgb(78,209,42);
+}
+
+i{
+    background-color: rgb(78,209,42);
+}
+
 #menu{
     float: right;
+
 }
 
 #menu li{
@@ -25,12 +36,19 @@
     list-style-type: none;
     margin-right: 20px;
     font-size: 120%;
+
    
 }
 
 #menu a{
     text-decoration: none;
-    color:white;
+    color: rgb(130,87,34);
+    text-transform: uppercase;
+    border: 2px solid rgb(130,87,34);
+    border-radius: 30%;
+    background-color: rgb(78,209,42);
+    padding: 5px;
+
 }
 
 #header, #menu{
@@ -38,6 +56,8 @@
 }
 
 /* This is hidden for now as i want to figure out how to make the header a single line */
+
+
 /* #header{
     width:100%;
 
@@ -81,9 +101,65 @@
 } */
 
 #hero-image{
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background: url(/assets/images/main-cover.jpg) center center no-repeat;
     background-size: auto;
     
    }
+/* road bikes styling  */
+
+section > h2{
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(130,87,34);
+    border-style: solid;
+    border-color: rgb(78,209,42);
+    border-width: 2px 0;
+    /* border-width: 2px;
+    border-style: solid;
+    border-top:rgb(78,209,42);
+    border-bottom: rgb(78,209,42); */
+
+}
+
+/* sizing for images of bikes */
+
+#road-bikes li{
+    width: 60%;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+}
+#road-bikes div > img{
+    height: 300px;
+    width: auto;
+    border: 2px solid rgb(130,87,34);
+    border-radius: 5px;
+}
+
+/* Specifications table  */
+
+.bike-specs{
+    margin: 0 auto;
+}
+
+
+table, td, th{
+    background-color: rgb(78,209,42);
+}
+
+.bike-specs td{
+    text-align: left;
+}
+
+.bike-specs th{
+    text-align: left;
+    padding-right: 10px;
+}
+
+.bike-specs a{
+    background-color: rgb(78,209,42);
+}
