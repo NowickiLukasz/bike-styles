@@ -7,30 +7,63 @@
 }
 /* header and nav bar styling */
 #header{
+    height: 50px;
+}
+
+#header h1{
+    float: left;
+    margin-left: 20px;
+}
+
+#menu{
+    float: right;
+}
+
+#menu li{
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 120%;
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#header, #menu{
+    line-height: 50px;
+}
+
+/* This is hidden for now as i want to figure out how to make the header a single line */
+/* #header{
     width:100%;
-    background-color: violet;
+
+    background-color: rgb(130, 87, 34);    
     background-size: cover;
     overflow:hidden;
 }
 
 #header h1{
-    height: 40px;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
     text-align: center;
   
 
 }
+
 #menu{
-        width: 60%;
+    width: 100%;
     margin: 0 auto;
-    
-    
     
 }
 
+#menu a{
+        width: 100%;
+        margin: 0 auto;
+}
+
+
 #menu li{
-    height: 40px;
     list-style-type: none;
     float: right;
     border: 1px solid black;
@@ -40,12 +73,13 @@
 }
 
 #menu a, #header h1 a{
+    color: white;
     text-decoration: none;
-}
+} */
 
 #hero-image{
-    height: 500px;;
-    width: 100;
+    height: 600px;
+    width: 100%;
     background: url(/assets/images/main-cover.jpg) center center no-repeat;
     background-size: cover;
 }
