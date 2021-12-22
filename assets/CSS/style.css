@@ -19,17 +19,19 @@
 #header h1{
     float: left;
     margin-left: 20px;
+    font-size: 120%;
+    
 }
-
-#header a{
-    height: 50%;
-    width: auto;
-    background-color:rgb(78,209,42);
-}
-
-i{
+#header h1 a{
+    text-decoration: none;
+    color: rgb(130,87,34);
+    text-transform: uppercase;
+    border: 2px solid rgb(130,87,34);
+    border-radius: 30%;
     background-color: rgb(78,209,42);
+    padding: 5px;
 }
+
 
 #menu{
     float: right;
@@ -112,7 +114,8 @@ i{
     background-size: auto;
     
    }
-/* road bikes styling  */
+
+/* bikes styling  */
 
 section > h2{
     height: 50px;
@@ -133,11 +136,7 @@ section > h2{
 /* sizing for images of bikes */
 
 #road-bikes li, #mtb li{
-    background-image: url(/assets/images/open-road-3.jpg);
-    background-position: center;
-    background-size: cover;
-
-    height: 100vh;
+   
     width: 100%;
 
     margin: 0 auto;
@@ -158,13 +157,10 @@ section > h2{
     margin: 0 auto;
     border: 2px solid rgb(130,87,34);
     border-radius: 5px;
+    border-collapse: collapse;
     width: 500px;
 }
 
-
-/* table, td, th{
-    background-color: rgb(78,209,42);
-} */
 
 .bike-specs td{
     text-align: left;
@@ -176,19 +172,40 @@ section > h2{
 }
 
 
-
-.head-center{
-    text-align: center;
-
-}
-
-/* tr:nth-child(even){
-    background: rgb(0, 0, 0);
-}
-tr:nth-child(odd){
-    background: rgb(219, 95, 95);
-} */
-
 #road-bikes ul li h2, #mtb ul li h2{
     padding-top: 10px;
+}
+
+
+/* footer */
+
+#footer{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    margin-top: 10px;
+    border-top: 2px solid rgb(130,87,34);
+    
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+
+
+
+.social{
+    float:right;
+    margin-right: 20px;
+    font-size: 200%;
+    color: inherit;
+    
+}
+
+
+
+p{
+    float:left;
+    font-size: 120%;
+    padding-left: 20px;
 }
