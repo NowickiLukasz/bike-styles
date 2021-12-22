@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     /* background-color: rgb(224,228,255); */
-    background-color: silver;
+    /* background-color: silver; */
  }
     
 
@@ -107,14 +107,41 @@
     text-decoration: none;
 } */
 
+
+/* hero image and text */
+
 #hero-image{
     height: 100vh;
     width: 100%;
     background: url(/assets/images/main-cover.jpg) center center no-repeat;
     background-size: auto;
     
-   }
+}
 
+#hero-text{
+    text-transform: uppercase;
+    width: 40vw;
+    height: 30vh;
+    background-color:rgba(173, 255, 47, 0.6);
+    border: 2px solid rgb(130,87,34);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#hero-text h2{
+    text-align: center;
+    padding: 5px;
+    background-color: transparent;  
+}
+
+#hero-text p{
+    
+    text-align: justify;
+    padding: 5px;
+    background-color: transparent;
+}
 /* bikes styling  */
 
 section > h2{
@@ -134,6 +161,14 @@ section > h2{
 }
 
 /* sizing for images of bikes */
+
+
+/* #mtb, #road-bikes{
+    background-image: url(/assets/images/open-road-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} */
 
 #road-bikes li, #mtb li{
    
