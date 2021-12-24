@@ -119,21 +119,38 @@ body{
 #hero-image{
     height: 90vh;
     width: 100%;
-    background: url(/assets/images/main-cover.jpg) center center no-repeat;
-    background-size: auto;
-    
+    background: url(/assets/images/main-page-bikes.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#hero-image-road-cycling{
+    height: 90vh;
+    width: 100%;
+    background: url(/assets/images/road-cycling.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#hero-image-mtb-cycling{
+    height: 90vh;
+    width: 100%;
+    background: url(/assets/images/main-cover.jpg) center no-repeat;
+    background-size: cover;
 }
 
 #hero-text{
     text-transform: uppercase;
     width: 40%;
     height: 30%;
-    background-color:rgba(173, 255, 47, 0.6);
+    background-color:rgba(173, 255, 47, 0.8);
     border: 2px solid rgb(130,87,34);
     border-radius: 5px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
 }
 
 #hero-text h2{
@@ -156,14 +173,19 @@ section > h2{
     margin: 0 auto;
     text-align: center;
     background-color: rgb(130,87,34);
-    border-style: solid;
-    border-color: rgb(78,209,42);
-    border-width: 2px 0;
+    /* border-style: solid; */
+    /* border-color: rgb(78,209,42); */
+    /* border-width: 2px 0; */
+
     /* border-width: 2px;
     border-style: solid;
     border-top:rgb(78,209,42);
     border-bottom: rgb(78,209,42); */
 
+}
+
+.margin-top{
+    margin-top: 10px;
 }
 
 /* sizing for images of bikes */
@@ -205,6 +227,8 @@ section > h2{
 
 .bike-specs td{
     text-align: left;
+    padding: 2px;
+
 }
 
 .bike-specs th{
@@ -225,13 +249,12 @@ section > h2{
     width: 100%;
     line-height: 50px;
     margin-top: 10px;
-    border-top: 2px solid rgb(130,87,34);
-    
+    /* border-top: 2px solid rgb(130,87,34); */
 }
 
-.margin-top{
+/* .margin-top{
     margin-top: 10px;
-}
+} */
 
 
 
