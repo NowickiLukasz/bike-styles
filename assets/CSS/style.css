@@ -3,12 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    /* background-color: rgb(224,228,255); */
-    /* background-color: silver; */
  }
-    
-
-
 
 /* header and nav bar styling */
 
@@ -43,6 +38,10 @@ body{
 
 }
 
+#menu {
+    direction: ltr;
+}
+
 #menu li{
     float: right;
     list-style-type: none;
@@ -54,11 +53,7 @@ body{
 
 #menu a{
     text-decoration: none;
-    /* color: rgb(130,87,34); */
     text-transform: uppercase;
-    /* border: 2px solid rgb(130,87,34); */
-    /* border-radius: 30%; */
-    /* background-color: rgb(78,209,42); */
     padding: 5px;
     color: inherit;
 
@@ -66,6 +61,9 @@ body{
 
 #header, #menu{
     line-height: 50px;
+}
+.active{
+    border-bottom: 2px solid rgb(130,87,34)
 }
 
 /* This is hidden for now as i want to figure out how to make the header a single line */
@@ -248,14 +246,9 @@ section > h2{
     height: 50px;
     width: 100%;
     line-height: 50px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* border-top: 2px solid rgb(130,87,34); */
 }
-
-/* .margin-top{
-    margin-top: 10px;
-} */
-
 
 
 .social{
@@ -329,3 +322,4 @@ p{
     border-radius: 5px;
     margin: 0 auto;
 }
+
