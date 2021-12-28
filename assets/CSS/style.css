@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
 
 *{
     padding: 0;
@@ -9,10 +9,12 @@
 
 body{
     background-color: silver;
+    font-family: 'PT Serif', serif;
 }
 
 #header{
     height: 50px;
+    background-color: #fafafa;
 }
 
 #header h1{
@@ -263,7 +265,8 @@ section > h2{
     height: 50px;
     width: 100%;
     line-height: 50px;
-    /* margin-top: 10px; */
+    background-color: #fafafa;
+    margin-top: 10px;
     /* border-top: 2px solid rgb(130,87,34); */
 }
 
@@ -321,22 +324,47 @@ p{
 }
 
 
-#submit{
-    display: block;
-    height: 30px;
+#submit, #reset{
+    display: inline-block;
+    height: 50px;
     width: 20%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    margin-top: 20px;
+/* margin-bottom: 10px; */
 }
 
 #reset{
+    float: right;
+}
+
+/* #reset{
     display: block;
     height: 30px;
     width: 20%;
     padding: 5px;
     border-radius: 5px;
     margin: 0 auto;
+} */
+
+.form p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
+.radio-button{
+    display: inline-block;
+}
+
+/* .form-radio-center{
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.form-radio-center label{
+    width: 100%;
+    text-transform: uppercase;
+    margin-right:15px;
+    
+}

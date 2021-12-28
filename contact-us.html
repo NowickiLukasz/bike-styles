@@ -39,20 +39,28 @@
              
              <form class="form" method="post" action="###">
                     <label for="fname">First Name</label>
-                        <input class="form-input" type="text" id="fname" name="fname" >
+                        <input class="form-input" type="text" id="fname" name="fname" required>
                     
                     <label for="lname">Last Name</label>
-                        <input class="form-input" type="text" id="lname" name="lname" >
+                        <input class="form-input" type="text" id="lname" name="lname" required>
 
                     <label for="email">Email</label>
-                        <input class="form-input" type="email" id="email" name="email" >
+                        <input class="form-input" type="email" id="email" name="email" required>
 
                     <label for="tel-number">Phone Number</label>
-                        <input class="form-input" type="tel" id="tel-number" name="telephone-number" >
+                        <input class="form-input" type="tel" id="tel-number" name="telephone-number" required>
 
-                    <label for="comments">Comments</label>
-                        <input class="form-input" type="text" id="comments" name="comments">
+                    <p>What type of bike are you interested in.</p><br>
+                    <div class="form-radio-center">
+                    <input type="radio" id="mtb" value="mountain" name="bike-type" class="radio-button" required>
+                    <label for=mtb>Mountain Bike</label>
 
+                    <input type="radio" id="road" value="road" name="bike-type" class="radio-button" required>
+                    <label for="road">Road Bike</label>
+
+                    <input type="radio" id="gravel" value="gravel" name="bike-type" class="radio-button" required>
+                    <label for="gravel">Gravel Bike</label>
+                    </div>
 
                     <input id="submit" type="submit" value="Submit">
                     <input id="reset" type="reset" value="Reset Form">
