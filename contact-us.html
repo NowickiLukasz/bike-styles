@@ -21,7 +21,7 @@
                 <li><a href="contact-us.html" class="active">Contact Us </a></li>
             </ul>           -->
             <div>
-                <a href="index.html" >Home</a>
+                <a href="index.html" id="no-display">Home</a>
                 <a href="road-bikes.html" >Road Bikes</a>
                 <a href="gravel-mtb.html">Gravel/MTB</a>
                 <a href="contact-us.html" class="active">Contact Us </a>
@@ -47,23 +47,25 @@
                     <label for="email">Email</label>
                         <input class="form-input" type="email" id="email" name="email" required>
 
+                    <!-- pattern information was used from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel -->
                     <label for="tel-number">Phone Number</label>
-                        <input class="form-input" type="tel" id="tel-number" name="telephone-number" required>
+                        <input class="form-input" type="tel" id="tel-number" name="telephone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-123-1234">
 
                     <p>What type of bike are you interested in.</p><br>
+                    
                     <div class="form-radio-center">
                     <input type="radio" id="mtb" value="mountain" name="bike-type" class="radio-button" required>
-                    <label for=mtb>Mountain Bike</label>
+                    <label for=mtb>Mountain Bike</label><br>
 
                     <input type="radio" id="road" value="road" name="bike-type" class="radio-button" required>
-                    <label for="road">Road Bike</label>
+                    <label for="road">Road Bike</label><br>
 
                     <input type="radio" id="gravel" value="gravel" name="bike-type" class="radio-button" required>
                     <label for="gravel">Gravel Bike</label>
                     </div>
 
                     <input id="submit" type="submit" value="Submit">
-                    <input id="reset" type="reset" value="Reset Form">
+                    <input id="reset" type="reset" value="Reset">
             </form>
             
          </section>
