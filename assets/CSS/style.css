@@ -230,6 +230,7 @@ section > h2{
     width: 500px;
     border: 2px solid rgb(130,87,34);
     border-radius: 5px;
+    margin-top: 10px;
 } 
 
 
@@ -380,6 +381,8 @@ p{
 
 @media only screen and (min-width:768px) and (max-width: 1024px) {
 
+    
+    /* form styling */
     .form{
         width: 100%;
         position: absolute;
@@ -399,6 +402,8 @@ p{
         justify-content: center;
         display: flex;
     }
+
+    
 }
 
 
@@ -412,6 +417,7 @@ p{
         font-size: 80%;
     }
 
+    /* form styling */
     .form{
         width: 100%;
         position: absolute;
@@ -434,6 +440,25 @@ p{
         display: flex;
     }
 
+    /* Styling for images and specifications */
+
+    /* Check how to do this  */
+    #road-bikes div > img, #mtb div > img{
+        height: auto;
+        max-width: 400px;
+        border: 2px solid rgb(130,87,34);
+        border-radius: 5px;
+        margin-top: 10px;
+    } 
+    
+    .bike-specs{
+        margin: 0 auto;
+        border: 2px solid rgb(130,87,34);
+        border-radius: 5px;
+        border-collapse: collapse;
+        max-width: 400px;
+    }
+
 }
   
 
@@ -443,12 +468,41 @@ p{
     #menu{
         display: none;
     }
-
+    
+    /* form styling */
     .form-btn-center{
         
         justify-content: center;
         display: flex;
     }
+
+    .form{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Styling for images and specifications */
+
+    
+    #road-bikes div > img, #mtb div > img{
+        height: auto;
+        max-width: 300px;
+        border: 2px solid rgb(130,87,34);
+        border-radius: 5px;
+        margin-top: 10px;
+    } 
+    
+    .bike-specs{
+        margin: 0 auto;
+        border: 2px solid rgb(130,87,34);
+        border-radius: 5px;
+        border-collapse: collapse;
+        max-width: 300px;
+    }
+
         
 }
 
