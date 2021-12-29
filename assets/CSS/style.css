@@ -304,6 +304,7 @@ p{
     margin: 100px 0 0 0;
     position: absolute;
     max-width: 300px;
+    /* min-width: 250px; */
     left: 10%;
     padding: 15px 30px;
     color: #fafafa;
@@ -327,26 +328,22 @@ p{
 
 
 #submit, #reset{
-    float: right;
+    /* float: right; */
     height: 50px;
-    width: 20%;
+    width: 75px;
     padding: 10px;
     border-radius: 5px;
     margin-right: 10px;
+}
+/* used to center submit and reset buttons. Source: https://coder-coder.com/how-to-center-button-with-html-css/ */
+.form-btn-center{
+    justify-content: center;
+    display: flex;
 }
 
 #reset{
     float: right;
 }
-
-/* #reset{
-    display: block;
-    height: 30px;
-    width: 20%;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 0 auto;
-} */
 
 .form p{
     width: 100%;
@@ -365,6 +362,7 @@ p{
     
 }
 
+
 /* styling learned on https://www.w3schools.com/cssref/sel_placeholder.asp */
 ::placeholder {
     color: #fafafa;
@@ -381,6 +379,7 @@ p{
 /* Styling for 768px — 1024px:  Small screens, laptops */
 
 @media only screen and (min-width:768px) and (max-width: 1024px) {
+
     .form{
         width: 100%;
         position: absolute;
@@ -393,16 +392,19 @@ p{
     #submit, #reset{
         float: right;
         margin-right: 10px;
+    }
+
+    .form-btn-center{
+        
+        justify-content: center;
+        display: flex;
     }
 }
 
 
 /* Styling for 481px — 768px: iPads, Tablets. */
 @media only screen and (min-width:481px) and (max-width: 768px) {
-   
-   
-
-    #no-display{
+   #no-display{
         display: none;
     }
    
@@ -426,34 +428,31 @@ p{
         margin-right: 10px;
     }
 
-    /* Styling for 320px — 480px: iPads, Tablets. */
+    .form-btn-center{
+        
+        justify-content: center;
+        display: flex;
+    }
+
+}
+  
+
+/* Styling for 320px — 480px: Mobile devices. */
 @media only screen and (min-width:320px) and (max-width: 480px) {
    
-   
-
-    #no-display{
+    #menu{
         display: none;
     }
-   
-    #menu{
-        font-size: 80%;
-    }
 
-    .form{
-        width: 100%;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
+    .form-btn-center{
         
+        justify-content: center;
+        display: flex;
     }
+        
+}
+
     
 
-    #submit, #reset{
-        float: right;
-        margin-right: 10px;
-    }
-}
 
-}
+
