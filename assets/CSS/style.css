@@ -133,7 +133,7 @@ body{
     background-size: cover;
 }
 
-#hero-text{
+/* #hero-text{
     text-transform: uppercase;
     width: 40%;
     height: 30%;
@@ -160,15 +160,86 @@ body{
     padding: 5px 10px;
     background-color: transparent;
     align-items: center;
+} */
+
+#hero-text{
+    
+    color: rgb(206, 215, 245);
+    
+    font-size: 130%;
+    text-transform: uppercase;
+
+    height:100px;
+    width:200px;
+    background-color: rgba(9, 10, 6, 0.9);
+    padding-left: 10px;
+    padding-top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+
+    align-items: center;
+
+    bottom: 30px;
+    left: 100px;
+
+    position: absolute;
+    
 }
 
-.head-title{
+#home-video{
+    background-color: silver;
+}
+/* positioning on videos */
+.media iframe{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.left iframe{
+    float:left;
+    margin: 20px 0 20px 50px;
+}
+
+.right iframe{
+    float: right;
+    margin: 20px 50px 20px 0;
+}
+
+/* how to center an iframe https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally */
+.center iframe{
+    display: block;
+    margin: auto;  
+}
+
+#center-message{
+    width: 200px;
+    height:100px;
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 5px;
+        
+    /* code to center vertically taken from https://stackoverflow.com/questions/2939914/how-do-i-vertically-align-text-in-a-div/13515693#13515693 */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right:  auto;  
+    margin-top: 50px;  
+    
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+.head-title h2{
     min-width: 320px;
     max-width: 420px;
     height: 50px;
-    font-size: 120%;
+    font-size: 180%;
     text-transform: uppercase;
-    line-height: 50px;
     margin: 0 auto;
     background-color: rgba(130,87,34,0.8);
     border: 5px solid #000;
@@ -176,7 +247,7 @@ body{
     text-align: center;
 
     position: absolute;
-    top: 10%;
+    top: 75px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -295,16 +366,17 @@ p{
 
 #background-form-styling{
     width: 100%;
-    height: 90vh;
+    height: 900px;
     background-image: url(/assets/images/downhill.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 .form{
-    margin: 100px 0 0 0;
+    margin: 100px 10% 0 0;
     position: absolute;
     max-width: 300px;
+    /* height: inherit; */
     /* min-width: 250px; */
     left: 10%;
     padding: 15px 30px;
@@ -420,6 +492,7 @@ p{
     /* form styling */
     .form{
         width: 100%;
+        /* height: 65%; */
         position: absolute;
         left: 0;
         right: 0;
