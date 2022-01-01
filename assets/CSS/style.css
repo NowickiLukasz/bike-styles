@@ -113,10 +113,12 @@ body{
 /* hero image and text */
 
 #hero-image{
-    height: 90vh;
+    height: 500px;
     width: 100%;
     background: url(/assets/images/main-page-bikes.jpg) center center no-repeat;
     background-size: cover;
+
+    position:  relative;
 }
 
 #hero-image-road-cycling{
@@ -133,35 +135,6 @@ body{
     background-size: cover;
 }
 
-/* #hero-text{
-    text-transform: uppercase;
-    width: 40%;
-    height: 30%;
-    background-color:rgba(173, 255, 47, 0.8);
-    border: 2px solid rgb(130,87,34);
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
-}
-
-#hero-text h2{
-    text-align: center;
-    padding: 5px;
-    background-color: transparent;  
-}
-
-#hero-text p{
-    
-    text-align: justify;
-    padding: 5px 10px;
-    background-color: transparent;
-    align-items: center;
-} */
-
 #hero-text{
     
     color: rgb(206, 215, 245);
@@ -176,7 +149,6 @@ body{
     padding-top: 20px;
     border: 2px solid rgb(255, 255, 255);
 
-    align-items: center;
 
     bottom: 30px;
     left: 100px;
@@ -274,9 +246,9 @@ section > h2{
 
 }
 
-.margin-top{
+/* .margin-top{
     margin-top: 10px;
-}
+} */
 
 /* sizing for images of bikes */
 
@@ -313,6 +285,7 @@ section > h2{
     border-radius: 5px;
     border-collapse: collapse;
     width: 500px;
+    margin-bottom: 10px;
 }
 
 
@@ -332,6 +305,9 @@ section > h2{
     padding-top: 10px;
 }
 
+table{
+    margin-bottom: 10px;
+}
 
 /* footer */
 
@@ -340,8 +316,6 @@ section > h2{
     width: 100%;
     line-height: 50px;
     background-color: #fafafa;
-    margin-top: 10px;
-    /* border-top: 2px solid rgb(130,87,34); */
 }
 
 
@@ -355,12 +329,10 @@ section > h2{
     color: inherit;
 }
 
-
-p{
-    float:left;
-    font-size: 120%;
-    /* padding-left: 20px; */
+#footer p{
+    float: left;
 }
+
 
 /* form styling */
 
@@ -538,9 +510,9 @@ p{
 /* Styling for 320px — 480px: Mobile devices. */
 @media only screen and (min-width:320px) and (max-width: 480px) {
    
-    #menu{
+    /* #menu{
         display: none;
-    }
+    } */
     
     /* form styling */
     .form-btn-center{
