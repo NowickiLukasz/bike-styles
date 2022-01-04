@@ -115,7 +115,7 @@ body{
 #hero-image{
     height: 500px;
     width: 100%;
-    background: url(/images/main-page-bikes.jpg) center center no-repeat;
+    background: url(../images/main-page-bikes.jpg) center center no-repeat;
     background-size: cover;
 
     position:  relative;
@@ -124,14 +124,14 @@ body{
 #hero-image-road-cycling{
     height: 90vh;
     width: 100%;
-    background: url(/assets/images/road-cycling.jpg) center no-repeat;
+    background: url(../images/road-cycling.jpg) center no-repeat;
     background-size: cover;
 }
 
 #hero-image-mtb-cycling{
     height: 90vh;
     width: 100%;
-    background: url(/assets/images/main-cover.jpg) center no-repeat;
+    background: url(../images/main-cover.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -341,7 +341,7 @@ table{
 #background-form-styling{
     width: 100%;
     height: 900px;
-    background-image: url(/assets/images/downhill.jpeg);
+    background-image: url(../images/downhill.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -745,11 +745,13 @@ table{
 }  
 
     #header h1 a{
-        float: right;
-        margin: 0 auto;
+        /* float: right; */
+        /* margin: 0 auto; */
+        text-align: center;
     }
     #menu a{
         text-align: center;
+        font-size: small;
             }
     /* #no-display{
         display: none;
