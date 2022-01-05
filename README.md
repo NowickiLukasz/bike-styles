@@ -10,16 +10,16 @@ This site will be treated as a stepping stone for people who wish to upgrade the
     -   First Time Visitor Goals
         - As a first time visitor, I want the user to easily navigate throught the pages.
         - As a first time visitor, I want the user to easily find types of bikes, their specifications and where they can be bought online. 
-        -As a fist time visitor, I want the user to be able to see if any events are happening. 
+        - As a fist time visitor, I want the user to be able to see if any events are happening. 
 
     - Returning Vistor Goals
          - As a returning visitor, I want the user to find information on how to contact us.
         - As a returning visitor, I want the user to be able to see new bikes that are being recommended. 
-        -As a returning visitor, I want the user to be able to see updated events.
+        - As a returning visitor, I want the user to be able to see updated events.
 
     - Frequent Visitor Goals
-        -As a returning visitor, I want the user to be able to let us know what type of bikes they are interested in so that we may update the page accordingly.
-        -As a returning visitor, I want the user to be able to get help with videos to choose the bike they need.
+        - As a returning visitor, I want the user to be able to let us know what type of bikes they are interested in so that we may update the page accordingly.
+        - As a returning visitor, I want the user to be able to get help with videos to choose the bike they need.
 
 - Design
 
