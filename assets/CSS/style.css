@@ -67,7 +67,7 @@ body{
 #hero-image{
     height: 500px;
     width: 100%;
-    background: url(../images/main-page-bikes.jpg) center center no-repeat;
+    background: url(/images/main-page-bikes.jpg) center center no-repeat;
     background-size: cover;
 
     position:  relative;
