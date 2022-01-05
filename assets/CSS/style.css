@@ -671,17 +671,27 @@ table{
     }
 
     #header{
-        height: 100px;
-        line-height: 50px;
+        height: 75px;
+        line-height: 25px;
         font-size: 80%;
-}  
+        display: grid;
+        text-align: center;
+    }  
 
     #menu a{
         clear: left;
         text-align: center;
         font-size: small;
         left: 20px
-}
+    }
+
+    /* Header styling for small screens */
+
+    .head-title h2{
+        top: 100px;
+        min-width: 220px;
+        max-width: 320px;
+    }
     
     /* form styling */
     .form-btn-center{
@@ -715,5 +725,9 @@ table{
         border-radius: 5px;
         border-collapse: collapse;
         max-width: 300px;
+    }
+
+    #footer{
+        font-size: smaller;
     }
 }
