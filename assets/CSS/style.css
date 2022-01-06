@@ -217,6 +217,8 @@ section > h2{
     border-collapse: collapse;
     width: 500px;
     margin-bottom: 10px;
+
+    
 }
 
 
@@ -239,6 +241,10 @@ section > h2{
 table{
     margin-bottom: 10px;
 }
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
 
 /* footer */
 

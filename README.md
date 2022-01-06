@@ -10,12 +10,10 @@ This site will be treated as a stepping stone for people who wish to upgrade the
     -   First Time Visitor Goals
         - As a first time visitor, I want the user to easily navigate throught the pages.
         - As a first time visitor, I want the user to easily find types of bikes, their specifications and where they can be bought online. 
-        - As a fist time visitor, I want the user to be able to see if any events are happening. 
 
     - Returning Vistor Goals
-         - As a returning visitor, I want the user to find information on how to contact us.
+        - As a returning visitor, I want the user to find information on how to contact us.
         - As a returning visitor, I want the user to be able to see new bikes that are being recommended. 
-        - As a returning visitor, I want the user to be able to see updated events.
 
     - Frequent Visitor Goals
         - As a returning visitor, I want the user to be able to let us know what type of bikes they are interested in so that we may update the page accordingly.
@@ -77,3 +75,6 @@ This site will be treated as a stepping stone for people who wish to upgrade the
     
     - Sign Up Page
         - This section allows the user to get in touch with, and allows the user to select the types of bikes they are intersted in. This will allow the page in the future to be updated with more requested styles of bikes. 
+    - Footer 
+        - This section allows the user to go onto social media platforms to get in touch, or to look at news updates. 
+        Links provided are for: Facebook, Twitter and Instagram. 
