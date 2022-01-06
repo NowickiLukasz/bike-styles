@@ -217,15 +217,12 @@ section > h2{
     border-collapse: collapse;
     width: 500px;
     margin-bottom: 10px;
-
-    
 }
 
 
 .bike-specs td{
     text-align: left;
     padding: 2px;
-
 }
 
 .bike-specs th{
@@ -242,10 +239,6 @@ table{
     margin-bottom: 10px;
 }
 
-tr:nth-child(even) {background: #CCC}
-tr:nth-child(odd) {background: #FFF}
-
-
 /* footer */
 
 #footer{
@@ -254,7 +247,6 @@ tr:nth-child(odd) {background: #FFF}
     line-height: 50px;
     background-color: #fafafa;
 }
-
 
 .social{
     float:right;
