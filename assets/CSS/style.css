@@ -130,6 +130,7 @@ body{
     margin: 20px 50px 20px 0;
 }
 
+
 /* how to center an iframe https://stackoverflow.com/questions/8366957/how-to-center-an-iframe-horizontally */
 .center iframe{
     display: block;
@@ -238,6 +239,8 @@ section > h2{
 table{
     margin-bottom: 10px;
 }
+
+tr:nth-child(even) {background: #FFF}
 
 /* footer */
 
