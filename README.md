@@ -120,6 +120,11 @@ This site will be treated as a stepping stone for people who wish to upgrade the
     
     - Mobile
 
+- Validation
+    - CSS
+    - HTML
+    <h2></h2><img src="assets/readme-images/validator.png">
+
 # Known Bugs
 
 # Deployment
