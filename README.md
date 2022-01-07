@@ -122,8 +122,13 @@ This site will be treated as a stepping stone for people who wish to upgrade the
 
 - Validation
     - CSS
+    <h2><a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" /></h2>
+    </a>
     - HTML
-    <h2></h2><img src="assets/readme-images/validator.png">
+    <h2>No errors or warnings to show. </h2>
 
 # Known Bugs
 
