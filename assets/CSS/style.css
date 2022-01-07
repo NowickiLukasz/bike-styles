@@ -647,6 +647,14 @@ table{
         text-align: center;
     }  
 
+    #header h1 {
+        margin: auto;
+    }
+
+    .head-title h2{
+        top: 100px;
+    }
+
     #menu a{
         clear: left;
         text-align: center;

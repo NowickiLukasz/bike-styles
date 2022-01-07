@@ -139,6 +139,7 @@ The site may take a few minutes to fully publish.
 
 ### Content
 - Content has been written by the author.
+- Specifications of bikes have been taken from the respective sites linked in each hyperlink.
 
 ### Researched Code
 -  Researched Code
@@ -160,4 +161,4 @@ Links are as follows:
 
 ### Acknowledgement
 
-I would like to thank my mento for helping me with this project and the support from the Code Institute.
+- I would like to thank my mentor for helping me with this project and the support from the Code Institute.
