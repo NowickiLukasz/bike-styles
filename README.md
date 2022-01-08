@@ -47,7 +47,7 @@ This site will be treated as a stepping stone for people who wish to upgrade the
     - White: #fafafa
     - Black: #000000
     - Aqua: #00ffff
-    - Silver: #C0C0C0C
+    - Silver: #c0c0c0c
     - Brown: rgb(130,87,34)
 
 ## Typography
@@ -81,7 +81,8 @@ This site will be treated as a stepping stone for people who wish to upgrade the
         - An program used to write code into, which then can sync with GitHub to allow for cloud storage of your work. 
 - [Google Fonts](https://fonts.google.com/)
         -Google fonts was used to insert PT Serif font into the stying sheet. 
-
+- [Balsamiq](https://balsamiq.com/)
+        - A program designed to allow to visualise a site by the use of wireframes
 # Existing Features
 - Navigation Bar
     - The navigation bar is located on all pages, it is fully responsive with link including, Home, Road, MTB/Gravel and a Contact Us.
@@ -109,17 +110,30 @@ This site will be treated as a stepping stone for people who wish to upgrade the
         <h2 align="center"><img src="assets/readme-images/footer.png">
 
 # Testing
-- The Website has been tested on the following browsers:
+## Balsamiq
+<p>The Program balsamiq was used to visualise the layout of the site. Here are the plans:</p>
+<h2>Index page:</h2>
+<img src="assets/readme-images/index.png">
+<h2>Main contents page:</h2>
+<img src="assets/readme-images/bikes-section.png">
+<h2>Form page:</h2>
+<img src="assets/readme-images/form.png">
+
+
+## The Website has been tested on the following browsers:
     - Google Chrome
     - Edge Browser
     - Opera Browser
     - Mozzilla Browser
 
-- Lighthouse Report
-    - Desktop
-    
-    - Mobile
+## Lighthouse Report
+<p>The site has been put through "Lighthouse" to produce a report on the performance. Each report was ran through incognito mode to show true performace without the periferal acions on the browser. </p> 
 
+- Desktop
+<h2><img src="assets/readme-images/desktop-lighthouse.png"></h2>
+
+- Mobile
+<h2><img src="assets/readme-images/mobile-lighthouse.png"></h2>
 - Validation
     - CSS
     <h2><a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -128,9 +142,11 @@ This site will be treated as a stepping stone for people who wish to upgrade the
             alt="Valid CSS!" /></h2>
     </a>
     - HTML
-    <h2>No errors or warnings to show. </h2>
+    <p>No errors or warnings to show. </p>
 
 # Known Bugs
+
+- The "active" class used to underline active pages in the navigation bar does not activate in the edge browser.
 
 # Deployment
 ## GitHub Pages
