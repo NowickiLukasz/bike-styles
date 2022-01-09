@@ -240,6 +240,7 @@ table{
     margin-bottom: 10px;
 }
 
+/* Alternating colors for a table: https://www.w3.org/Style/Examples/007/evenodd.en.html */
 tr:nth-child(even) {background: #FFF}
 
 /* footer */

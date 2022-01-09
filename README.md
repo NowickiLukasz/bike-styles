@@ -97,7 +97,7 @@ This site will be treated as a stepping stone for people who wish to upgrade the
         <h2 align="center"><img src="assets/readme-images/home-videos.png"> 
 
 - Road/MTB/Gravel bikes pages
-    - This section allows the users to browse through the selection of bikes in order to loot at their specifications and llows them to go to the site where they can buy them.
+    - This section allows the users to browse through the selection of bikes in order to loot at their specifications and allows them to go to the site where they can buy them.
         <h2 align="center"><img src="assets/readme-images/road-bikes-1.png">
         <h2 align="center"><img src="assets/readme-images/gravel-bikes.png">
     
@@ -122,10 +122,10 @@ This site will be treated as a stepping stone for people who wish to upgrade the
 
 
 ## The Website has been tested on the following browsers:
-    - Google Chrome
-    - Edge Browser
-    - Opera Browser
-    - Mozzilla Browser
+- Google Chrome
+- Edge Browser
+- Opera Browser
+- Mozzilla Browser
 
 ## Lighthouse Report
 <p>The site has been put through "Lighthouse" to produce a report on the performance. Each report was ran through incognito mode to show true performace without the periferal acions on the browser. </p> 
@@ -198,6 +198,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
     - <a href="https://stackoverflow.com/questions/2939914/how-do-i-vertically-align-text-in-a-div/13515693#13515693">Code to center vertically</a>
     - <a href="https://coder-coder.com/how-to-center-button-with-html-css/">Center submit and reset buttons </a>
     - <a href="https://www.w3schools.com/cssref/sel_placeholder.asp">Placeholder styling</a>
+    - <a href="https://www.w3.org/Style/Examples/007/evenodd.en.html">ALternating color for tabel content</a>
 
 ## Media
 ### Videos were taken from YouTube:
