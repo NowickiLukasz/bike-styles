@@ -7,6 +7,7 @@ This site will be treated as a stepping stone for people who wish to upgrade the
 
 - Live link: <a href="https://nowickilukasz.github.io/bike-styles/index.html">Cycling World</a>
 
+
 # User Exparience (UX)
 
 ## User Stories
@@ -161,30 +162,55 @@ To allow the page to be deployed we followed the following steps.
 5. This will create a link to the now published site. 
 The site may take a few minutes to fully publish.
 
-## Credits
+## Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-### Content
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+
+## Making a Local Clone
+1. Log in to GitHub and locate the <a href="https://github.com/NowickiLukasz/bike-styles">GitHub Repository</a>
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+<p>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY<p>
+<p>Press Enter. Your local clone will be created.</p>
+<p>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</p>
+<p>Cloning into `CI-Clone`...</p>
+<p>remote: Counting objects: 10, done.</p>
+<p>remote: Compressing objects: 100% (8/8), done.</p>
+<p>remove: Total 10 (delta 1), reused 10 (delta 1)</p>
+<p>Unpacking objects: 100% (10/10), done. </p></p>
+
+
+# Credits
+
+## Content
 - Content has been written by the author.
 - Specifications of bikes have been taken from the respective sites linked in each hyperlink.
 
-### Researched Code
+## Researched Code
 -  Researched Code
     - <a href="https://stackoverflow.com/questions/2939914/how-do-i-vertically-align-text-in-a-div/13515693#13515693">Code to center vertically</a>
     - <a href="https://coder-coder.com/how-to-center-button-with-html-css/">Center submit and reset buttons </a>
     - <a href="https://www.w3schools.com/cssref/sel_placeholder.asp">Placeholder styling</a>
 
-### Media
-#### Videos were taken from YouTube:
+## Media
+### Videos were taken from YouTube:
 Links are as follows:
 - <a href="https://youtu.be/7cmUfhhWDEc">Video 1</a>
 - <a href="https://youtu.be/PvYFzKjdGmU">Video 2</a>
 - <a href="https://youtu.be/_T7NTe3uBN4">Video 3</a>
 
-#### Images were taken from multiple sources:
+### Images were taken from multiple sources:
 - Google Images
 - <a href="https://dublin2bike.ie/">Bike Images</a>
 
 
-### Acknowledgement
+# Acknowledgement
 
 - I would like to thank my mentor for helping me with this project and the support from the Code Institute.
