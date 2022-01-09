@@ -198,7 +198,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
     - <a href="https://stackoverflow.com/questions/2939914/how-do-i-vertically-align-text-in-a-div/13515693#13515693">Code to center vertically</a>
     - <a href="https://coder-coder.com/how-to-center-button-with-html-css/">Center submit and reset buttons </a>
     - <a href="https://www.w3schools.com/cssref/sel_placeholder.asp">Placeholder styling</a>
-    - <a href="https://www.w3.org/Style/Examples/007/evenodd.en.html">ALternating color for tabel content</a>
+    - <a href="https://www.w3.org/Style/Examples/007/evenodd.en.html">Alternating color for table content</a>
 
 ## Media
 ### Videos were taken from YouTube:
